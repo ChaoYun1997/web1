@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- Global site tag (gtag.js) - Google Ads: 984162438 -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-984162438"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', 'AW-984162438');
+		</script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-41588967-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-41588967-1');
+		</script>
+		<!-- Event snippet for 提交潜在客户表单0105 conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+		<script>
+			function gtag_report_conversion(url) {
+				var callback = function() {
+					if (typeof(url) != 'undefined') {
+						window.location = url;
+					}
+				};
+				gtag('event', 'conversion', {
+					'send_to': 'AW-984162438/ZOLnCPe22O8BEIbBpNUD',
+					'event_callback': callback
+				});
+				return false;
+			}
+		</script>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="icon" href="<%= BASE_URL %>favicon.ico">
+		<title>
+			<%= htmlWebpackPlugin.options.title %>
+		</title>
+	</head>
+	<body>
+		<noscript>
+			<strong>We're sorry but
+				<%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to
+				continue.</strong>
+		</noscript>
+		<div id="app"></div>
+		<!-- built files will be auto injected -->
+	</body>
+</html>

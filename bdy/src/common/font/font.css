@@ -1,0 +1,29 @@
+@font-face {
+	font-family: Radikal;
+	src: url('Radikal.otf');
+}
+
+@font-face {
+	font-family: RadikalBlack;
+	src: url('Nootype-Radikal Black.otf');
+}
+
+@font-face {
+	font-family: UbuntuM;
+	src: url('Ubuntu-M_1.otf');
+}
+
+@font-face {
+	font-family: UbuntuB;
+	src: url('Ubuntu-B.otf');
+}
+
+@font-face {
+	font-family: UbuntuL;
+	src: url('Ubuntu-L_1.otf');
+}
+
+@font-face {
+	font-family: Teko;
+	src: url('Teko-Medium.otf');
+}
